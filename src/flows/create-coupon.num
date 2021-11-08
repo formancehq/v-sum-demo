@@ -1,0 +1,9 @@
+vars {
+  account  $coupon
+  monetary $budget
+}
+
+send $budget (
+  source = @world
+  destination = $coupon
+)

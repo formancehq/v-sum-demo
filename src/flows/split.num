@@ -1,0 +1,22 @@
+vars {
+  account $order
+  account $restaurant
+  account $rider
+  monetary $delivery_price
+}
+
+send $delivery_price (
+  source = $order
+  destination = $rider
+)
+
+send [USD/2 *] (
+  source = $order
+  destination = {
+    85% to $restaurant
+    remaining to {
+      20% to @platform:taxes
+      remaining to @platform:fees
+    }
+  }
+)

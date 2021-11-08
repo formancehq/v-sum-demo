@@ -1,0 +1,10 @@
+vars {
+  account  $coupon
+  account  $wallet
+  monetary $value = meta($coupon, "value")
+}
+
+send $value (
+  source = $coupon
+  destination = $wallet
+)

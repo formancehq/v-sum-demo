@@ -1,0 +1,19 @@
+vars {
+  account  $payment
+  account  $wallet
+  account  $order
+  monetary $total
+}
+
+send $total (
+  source = {
+    $wallet
+    @world
+  }
+  destination = $payment
+)
+
+send [USD/2 *] (
+  source = $payment
+  destination = $order
+)

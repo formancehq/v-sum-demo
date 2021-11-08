@@ -1,0 +1,13 @@
+vars {
+  account $account
+}
+
+send [USD/2 *] (
+  source = $account
+  destination = @payouts
+)
+
+send [USD/2 *] (
+  source = @payouts
+  destination = @world
+)
