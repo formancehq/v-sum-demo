@@ -1,5 +1,5 @@
 const numary = require('numary');
 const cluster = numary();
-const ledger = cluster.getLedger('example-v-sum-01');
+const ledger = cluster.getLedger('v-store-01');
 
 module.exports = ledger;
