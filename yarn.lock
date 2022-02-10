@@ -564,10 +564,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-numary@^1.0.0-alpha.3:
-  version "1.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/numary/-/numary-1.0.0-alpha.3.tgz#d095789a5fd4ebf34afa09490ab9b1d24ea049d8"
-  integrity sha512-e2EFELL8jWf8tJlXAHm7GTJ7kRKDBB7nvBXeQxr9jDAuMAS1SN0hQb2buHzIgTBmlfGLnUdKIMkyICP4+yE09w==
+numary@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/numary/-/numary-1.0.0.tgz#a21ebeef62513debf9152bb6b44d65ce05fbe4a4"
+  integrity sha512-2VywRBd9V7vkGla7dvMspt3iq5FE82ZmvmyCTfL3rm4GyDFH9w7KLyVb6KGZcr9HjBylYIQvt9jURudsMHoXIQ==
   dependencies:
     axios "^0.21.1"
     json-schema-to-typescript "^10.1.4"
